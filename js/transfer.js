@@ -11,7 +11,7 @@ function searchAsset1() {
       // if found
       if (response[1] !== "") {
         let content =
-          "<h4>Drug Found</h4>Name: " +
+          "<h4>Drug / Vaccine Found</h4>Name: " +
           response[1] +
           "<br>" +
           "Owner: " +

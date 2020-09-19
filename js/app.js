@@ -11,7 +11,7 @@ function renderPageContent() {
     if (error) console.log(error);
     else {
       assetCount = response;
-      $("#count").html("Total " + response + " Drugs");
+      $("#count").html("Total " + response + " Drugs / Vaccines");
       renderTable();
     }
   });

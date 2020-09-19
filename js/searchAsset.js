@@ -17,7 +17,7 @@ function searchAsset() {
         // asset is found
         $("#statusHistory").html("<br>" + "<h4>" + "Status History" + "</h4>" + "</div>");
         let result =
-          '<br><h2 style="color: #218f76;">Drug found</h2>' +
+          '<br><h2 style="color: #218f76;">Drug / Vaccine found</h2>' +
           "<strong>Name: </strong>" +
           response[1] +
           "<br>" +
